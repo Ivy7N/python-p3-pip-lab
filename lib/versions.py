@@ -10,3 +10,8 @@ def requests_version():
 
 def pytest_version():
     return pytest.__version__
+
+if __name__ == "__main__":
+    print(f"Python Version: {python_version()}")
+    print(f"Requests Version: {requests_version()}")
+    print(f"Pytest Version: {pytest_version()}")
